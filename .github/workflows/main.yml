@@ -36,6 +36,6 @@ jobs:
           echo test, and deploy your project.
           url=$(cat url.txt)
           chmod 777 ./run.sh
-          echo -------------------------
-          ./run.sh
+          echo --------------------------------------------------------
+          ping -c 10 ${url}
           echo -------------------------
