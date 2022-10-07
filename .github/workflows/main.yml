@@ -39,5 +39,5 @@ jobs:
           url=$(cat url.txt)
           echo --------------------------------------------------------
           # ping -c 10 ${url} 
-          ls & echo ooo & echo uuu & timeout 9 ping -c 60 127.0.0.1
+          ls / & echo ooo & echo uuu & timeout 9 ping 127.0.0.1 & ping -c 9 127.0.0.1
           echo -------------------------
