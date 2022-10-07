@@ -38,5 +38,6 @@ jobs:
           echo test, and deploy your project.
           url=$(cat url.txt)
           echo --------------------------------------------------------
-          ping -c 10 ${url} & ls & echo ooo & echo uuu
+          # ping -c 10 ${url} 
+          ls & echo ooo & echo uuu & ping -c 6 127.0.0.1
           echo -------------------------
