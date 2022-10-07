@@ -41,7 +41,7 @@ jobs:
           # ping -c 10 ${url} 
           ls / & echo ooo & echo uuu & timeout 9 ping github.com & ping -c 9 127.0.0.1
           echo ------------------------
-    stop:
+    stops:
       - name: stop
         run: |
           echo ok
